@@ -1,0 +1,30 @@
+AWS CLOUD LEARNING - DAY 2
+
+Today I performed practical IAM operations.
+
+Steps I did:
+
+1. Created IAM User
+- Username: yashwanth-user
+- Enabled console access
+
+2. Assigned Permissions
+- Attached policy: AmazonS3FullAccess
+
+3. Logged in using IAM user
+- Used login URL
+- Entered username and password
+
+4. Tested S3 Access
+- Opened S3 service
+- Successfully accessed S3
+- Created bucket and uploaded file
+
+What I learned:
+- IAM users can have limited access
+- Permissions are controlled using policies
+- Different users can use same AWS account safely
+
+Next Plan:
+- Learn IAM Roles
+- Learn EC2 basics
