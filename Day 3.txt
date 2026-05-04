@@ -1,0 +1,34 @@
+AWS CLOUD LEARNING - DAY 3
+
+Topic: Amazon S3 (Simple Storage Service)
+
+What is S3?
+Amazon S3 is a storage service used to store files like images, videos, and websites.
+
+Key Concepts:
+
+1. Bucket
+- A container to store files
+- Must have a unique name globally
+
+2. Objects
+- Files stored inside bucket
+- Example: images, HTML files
+
+3. Storage Classes
+- Different types of storage based on usage
+- Example:
+  - Standard
+  - Glacier (for backup)
+
+4. Static Website Hosting
+- S3 can host simple websites
+- Uses HTML, CSS files
+
+5. Public Access
+- Files must be public to access from internet
+
+What I will do next:
+- Create S3 bucket
+- Upload website files
+- Enable static hosting
