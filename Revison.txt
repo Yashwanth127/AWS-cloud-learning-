@@ -1,0 +1,185 @@
+AWS CLOUD LEARNING - REVISION NOTES
+
+Hi, these are my revision notes for AWS Cloud learning till now.
+I started learning AWS basics and understanding how cloud services work practically.
+
+
+DAY 1 - IAM BASICS
+
+What is AWS?
+AWS (Amazon Web Services) is a cloud platform that provides services over the internet.
+
+Examples:
+- Storage
+- Virtual servers
+- Databases
+- Networking
+- Security
+
+Instead of buying physical hardware, companies use AWS cloud services.
+
+
+What is IAM?
+
+IAM stands for Identity and Access Management.
+
+It is used to:
+- Control user access
+- Manage permissions
+- Improve AWS account security
+
+IAM helps decide:
+- Who can access AWS
+- What they can do
+- Which services they can use
+
+Concepts Learned
+
+1. Root User
+- Main AWS account
+- Has full access to everything
+- Should not be used daily for security reasons
+
+2. MFA (Multi-Factor Authentication)
+- Extra security layer using OTP
+- Protects account from unauthorized access
+
+3. IAM Users
+- Separate users for developers or team members
+- Each user gets login credentials
+
+4. IAM Roles
+- Temporary access without password
+- Mostly used by AWS services
+
+5. Policies
+- Permission rules in JSON format
+- Used to Allow or Deny actions
+
+Example:
+- S3 Full Access
+- EC2 Read Only Access
+
+
+
+What I Did on Day 1
+
+- Logged into AWS account
+- Opened IAM dashboard
+- Learned users, roles, and policies
+- Understood AWS security basics
+
+
+
+DAY 2 - IAM PRACTICAL
+
+Today I performed practical IAM operations.
+
+
+
+Steps I Performed
+
+1. Created IAM User
+- Created a new IAM user
+- Enabled console access
+
+2. Assigned Permissions
+- Attached AmazonS3FullAccess policy
+
+3. Logged in with IAM User
+- Used IAM login URL
+- Logged into AWS successfully
+
+4. Tested S3 Access
+- Opened S3 service
+- Created bucket
+- Uploaded files
+
+
+
+What I Learned
+
+- IAM users should be used instead of root account
+- Permissions control access to AWS services
+- Policies are very important for security
+- Different users can safely use the same AWS account
+
+
+
+DAY 3 - AMAZON S3 BASICS
+
+What is Amazon S3?
+
+S3 stands for Simple Storage Service.
+
+It is used to store:
+- Images
+- Videos
+- Documents
+- Backup files
+- Website files
+
+S3 is one of the most popular AWS services.
+
+
+
+Concepts Learned
+
+1. Bucket
+- Container used to store files
+- Bucket name must be globally unique
+
+2. Objects
+- Files stored inside bucket
+- Every file in S3 is called an object
+
+3. Storage Classes
+Different storage types based on usage.
+
+Examples:
+- Standard
+- Glacier (backup storage)
+
+4. Static Website Hosting
+- S3 can host static websites
+- Uses HTML and CSS files
+
+5. Public Access
+- Files need public permission to access from internet
+
+
+
+What I Did on Day 3
+
+- Learned S3 basics
+- Created S3 bucket
+- Uploaded files into bucket
+- Learned static website hosting concept
+
+
+
+OVERALL REVISION
+
+Till now I learned:
+- AWS basic concepts
+- IAM security concepts
+- Users, Roles, Policies
+- S3 basics
+- Bucket creation
+- File uploading
+- Basic cloud storage concepts
+
+
+
+NEXT LEARNING PLAN
+
+- IAM Roles practical
+- EC2 basics
+- Linux in EC2
+- Networking basics
+- Bash scripting
+- Static website hosting practical
+
+
+My Goal:
+To improve my cloud and Linux skills and become confident in AWS practical usage.
