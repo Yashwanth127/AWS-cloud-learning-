@@ -1,0 +1,305 @@
+
+AWS CLOUD CHEAT SHEET
+
+
+AWS = Amazon Web Services
+Cloud platform used for:
+- Servers
+- Storage
+- Networking
+- Security
+- Databases
+- Monitoring
+
+========================================
+1. EC2 (Elastic Compute Cloud)
+========================================
+
+Purpose:
+Virtual servers in AWS
+
+Used For:
+- Hosting websites
+- Applications
+- Linux servers
+
+Important:
+- AMI = Server template
+- Instance = Virtual machine
+- Security Group = Firewall
+- Key Pair = Login access
+
+Common Terms:
+- t2.micro = Free tier instance
+- Elastic IP = Static public IP
+
+========================================
+2. S3 (Simple Storage Service)
+========================================
+
+Purpose:
+Store files in cloud
+
+Used For:
+- Images
+- Backups
+- Logs
+- Static websites
+
+Important:
+- Bucket = Folder/container
+- Object = File
+
+Storage Classes:
+- Standard
+- IA
+- Glacier
+
+Features:
+- Versioning
+- Encryption
+- Lifecycle rules
+
+========================================
+3. IAM (Identity & Access Management)
+========================================
+
+Purpose:
+Manage users and permissions
+
+Important:
+- User
+- Group
+- Policy
+- Role
+
+Best Practice:
+Least Privilege Access
+
+========================================
+4. VPC (Virtual Private Cloud)
+========================================
+
+Purpose:
+Private network inside AWS
+
+Important:
+- Subnet
+- Route Table
+- Internet Gateway
+- NAT Gateway
+
+Subnet Types:
+- Public Subnet
+- Private Subnet
+
+========================================
+5. RDS (Relational Database Service)
+========================================
+
+Purpose:
+Managed SQL databases
+
+Supported:
+- MySQL
+- PostgreSQL
+- MariaDB
+
+Benefits:
+- Backup
+- Auto patching
+- Scalability
+
+========================================
+6. DynamoDB
+========================================
+
+Purpose:
+NoSQL database
+
+Features:
+- Fast
+- Serverless
+- Key-value database
+
+========================================
+7. CloudWatch
+========================================
+
+Purpose:
+Monitoring service
+
+Used For:
+- Logs
+- Metrics
+- Alarms
+- CPU monitoring
+
+========================================
+8. CloudTrail
+========================================
+
+Purpose:
+Tracks AWS activities
+
+Used For:
+- Audit logs
+- API tracking
+- Security monitoring
+
+========================================
+9. Route 53
+========================================
+
+Purpose:
+DNS service
+
+Used For:
+- Domain management
+- Traffic routing
+
+========================================
+10. Load Balancer
+========================================
+
+Purpose:
+Distributes traffic
+
+Types:
+- ALB
+- NLB
+
+Benefits:
+- High availability
+- Fault tolerance
+
+========================================
+11. Auto Scaling
+========================================
+
+Purpose:
+Automatically increase/decrease servers
+
+Benefits:
+- Saves cost
+- Handles traffic spikes
+
+========================================
+12. Lambda
+========================================
+
+Purpose:
+Run code without servers
+
+Known As:
+Serverless Computing
+
+========================================
+13. EBS (Elastic Block Store)
+========================================
+
+Purpose:
+Storage for EC2
+
+Like:
+Virtual hard disk
+
+========================================
+14. ECS / EKS
+========================================
+
+Purpose:
+Container services
+
+ECS = Docker containers
+EKS = Kubernetes
+
+========================================
+15. AWS Shared Responsibility Model
+========================================
+
+AWS Responsible For:
+- Hardware
+- Physical security
+- Infrastructure
+
+Customer Responsible For:
+- Passwords
+- IAM permissions
+- Data security
+
+========================================
+16. Security Group vs NACL
+========================================
+
+Security Group:
+- Instance level
+- Stateful
+
+NACL:
+- Subnet level
+- Stateless
+
+========================================
+17. Important Ports
+========================================
+
+22   = SSH
+80   = HTTP
+443  = HTTPS
+3389 = RDP
+
+========================================
+18. Cloud Service Models
+========================================
+
+IaaS = Infrastructure as a Service
+PaaS = Platform as a Service
+SaaS = Software as a Service
+
+========================================
+19. AWS CLI Basic Commands
+========================================
+
+Check version:
+aws --version
+
+Configure AWS:
+aws configure
+
+List S3 buckets:
+aws s3 ls
+
+Copy file to S3:
+aws s3 cp file.txt s3://bucket-name
+
+========================================
+20. Real Time Usage
+========================================
+
+AWS is used in:
+- Cloud Engineering
+- DevOps
+- Cybersecurity
+- SOC
+- Web Hosting
+- Big Companies Infrastructure
+
+========================================
+IMPORTANT INTERVIEW LINES
+========================================
+
+EC2 = Virtual server
+S3 = Storage service
+IAM = Access management
+VPC = Private network
+RDS = Managed database
+CloudWatch = Monitoring
+CloudTrail = Activity tracking
+Lambda = Serverless compute
+
+========================================
+END OF CHEAT SHEET
+========================================
+
+This repository contains my AWS cloud learning notes, practicals, revision notes, and cheat sheets.
